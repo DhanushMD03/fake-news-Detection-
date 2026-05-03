@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: fake-news-app
+    env: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: gunicorn app:app --chdir backend
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.13
