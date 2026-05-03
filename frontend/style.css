@@ -1,0 +1,35 @@
+body {
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+textarea {
+    width: 60%;
+    height: 120px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background: #22c55e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#resultBox {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}

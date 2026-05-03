@@ -1,0 +1,4 @@
+backend/*.csv
+backend/*.pkl
+backend/data/
+__pycache__/
